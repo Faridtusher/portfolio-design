@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* common section */
+*{
+   margin: 0;
+   font-family: "Open Sans", sans-serif;
+}
+
+.headerContainer{
+   background: rgb(255, 248, 243);
+}
+
+
+/* navigation section */
+.navContainer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0px 150px;
+}
+
+.navlogo{
+   font-size: 25px;
+   font-weight: 800;
+   margin-top: 20px;
+}
+
+.navlogo > span{
+   color: orange;
+}
+
+.navDetails{
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   margin-top: 20px;
+}
+
+.navMenusContainer{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+
+.navMenusContainer li{
+   list-style: none;
+}
+
+.navMenusContainer li a{
+   text-decoration: none;
+   color: rgb(71, 71, 71);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
+
+.navMenusContainer li a:hover{
+   text-decoration: underline;
+   color: rgb(221, 152, 23);
+}
+
+.button{
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background: rgb(253, 110, 10);
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+}
+
+/* Top details style */
+
+
+
+
