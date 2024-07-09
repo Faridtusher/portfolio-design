@@ -79,8 +79,8 @@
    background-color: rgb(216, 91, 46);
 }
 
-/* Top details style */
 
+/* Top details style */
 .topTextContainer{
    margin: 50px 200px 0px 150px;
    display: flex;
@@ -125,11 +125,7 @@
 }
 
 .personeImg {
-   /* background-image: url('/images/header_bg.png');
-   background-repeat: no-repeat;
-   background-size: cover; */
-   width: 250px;
-  
+   width: 250px;  
 }
 
 .personeImg img{
@@ -144,7 +140,7 @@
    height: 550px;
    border-radius: 10px;
    background: rgb(224, 195, 174);
-   margin: auto;
+   margin: 0 auto;
 }
 
 .aboutDetails{
@@ -152,19 +148,17 @@
    width: 700px;
    height: 200px;
    margin: 0px auto;
-   padding: 150px 150px;
-   border: 2px solid gray;
-  
+   padding: 100px 150px;
 }
 
 .aboutTitle{
    margin-bottom: 20px;
    color: rgb(24, 24, 24);
-   font-size: 35px;
    font-weight: 700;
    line-height: 48px;
    letter-spacing: 0%;
    text-align: center;
+   font-size: 28px;
 }
 
 .aboutBlog{
@@ -182,3 +176,63 @@
    display: flex;
    justify-content: space-around;
 }
+
+
+/* style about the my works */
+.job-container{
+   width: 1040px;
+   margin: 80px auto;
+   text-align: center; 
+}
+
+
+.job-title{
+   margin-bottom: 20px;
+   font-size: 28px;
+   color: rgb(24, 24, 24);
+   font-weight: 700;
+   line-height: 48px;
+}
+
+
+.job-description{
+   width: 800px;
+   margin: 0 auto;
+   color: rgb(117, 117, 117);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+}
+
+.skills-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+   text-align: start;
+   margin-top: 50px;
+}
+
+.skill{
+   box-shadow: 0px 0px 30px rgba(78, 66, 66, 0.3);
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.skill-img{
+   margin-bottom: 12px;
+}
+
+.skill-title{
+   margin-bottom: 15px;
+}
+
+.skill-description{
+   color: rgb(117, 117, 117);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   text-align: left;
+}
+
+/* complete to style the my works section*/
